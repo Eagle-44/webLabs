@@ -1,0 +1,55 @@
+body {
+    font-family: "Rubik", "DM Serif Display";
+    font-size: 16px;
+    max-width: 1600px;
+    color: #402B2B;
+    margin: 0 auto;
+    background: #E5E5E5;
+}
+
+.background {
+    position: absolute;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding-inline: 24px;
+    padding-top: 20px;
+    padding-bottom: 21px;
+    background: #EE4D47;
+    font-family: "Rubik";
+    font-weight: bold;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul, li {
+    padding: 0;
+    display: block;
+}
+
+h1 , h2{
+    margin: auto 0;
+}
+
+/* .title {
+    font-family: Rubik;
+    line-height: 40px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color:#EE4D47;
+    
+} */
+
+.paraghraph {
+    margin: auto 0;
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+}

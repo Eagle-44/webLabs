@@ -1,0 +1,75 @@
+.hero {
+    background: url('../img/Background\ Scene.svg') no-repeat right top;
+    min-height: 1103px;
+}
+
+.upper_header {
+    display: flex;
+
+}
+.header_menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.header_menu-item {
+    margin-right: 97px;
+    padding-top: 61px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    font-family: "Rubik";
+}
+.text_logo {
+    padding-left: 28px;
+    padding-right: 292px;
+    font-family: "DM Serif Display";
+    text-transform: uppercase;
+    padding-top: 64px;
+    color: #FFF;
+}
+
+.header_logo{
+    display: flex;
+    text-transform: uppercase;
+    width: 137px;
+    height: 32px;
+    font-size: 32px;
+    line-height: 100%;
+    line-height: 32px;
+    color: #000;
+    font-family: "DM Serif Display";
+}
+
+.logo_pict_1 {
+    width: 16px;
+    height: 17px;
+    padding-top: 50px;
+    padding-left: 240px;
+}
+
+.logo_pict_2 {
+    width: 31px;
+    height: 33px;
+    padding-top: 67px;
+}
+
+.btn_contact-us {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    line-height: 19px;
+    border-radius: 5px;
+    width: 158px;
+    height: 60px;
+    letter-spacing: 0.05em
+}
+
+.btn_contact-us:hover {
+    background-color: #FFF;
+    color: #EE4D47;
+}
