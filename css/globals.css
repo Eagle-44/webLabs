@@ -1,14 +1,15 @@
 body {
     font-family: "Rubik", "DM Serif Display";
     font-size: 16px;
-    max-width: 1600px;
     color: #402B2B;
-    margin: 0 auto;
     background: #E5E5E5;
 }
 
-.background {
-    position: absolute;
+.container {
+    max-width: 1600px;
+    background: url('../img/Background\ Scene.svg') no-repeat top;
+    margin: 0 auto;
+    
 }
 
 button {
@@ -36,15 +37,6 @@ ul, li {
 h1 , h2{
     margin: auto 0;
 }
-
-/* .title {
-    font-family: Rubik;
-    line-height: 40px;
-    align-items: center;
-    letter-spacing: 0.1em;
-    color:#EE4D47;
-    
-} */
 
 .paraghraph {
     margin: auto 0;

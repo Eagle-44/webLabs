@@ -1,9 +1,6 @@
 .hero_inner {
     width: 740px;
     padding-top: 94px;
-}
-
-.container_hero{
     margin-left: 240px;
 }
 
@@ -12,7 +9,7 @@
     line-height: 100px;
     display: flex;
     align-items: center;
-    /* color: #FFF;   */
+    color: #FFF;   
 }
 
 .btn_get_start {
@@ -26,10 +23,6 @@
 }
 
 .hero_car {
-    padding-top: 50px;   
-}
-
-.car_image {
-    position: relative ;
-    left: -200px;
+    padding-top: 50px;
+    margin-left: -200px;   
 }

@@ -1,18 +1,12 @@
-.hero {
-    background: url('../img/Background\ Scene.svg') no-repeat right top;
-    min-height: 1103px;
+.header {
+    margin: 0 auto;
 }
 
 .upper_header {
     display: flex;
-
-}
-.header_menu ul {
-    display: flex;
     justify-content: center;
 }
-
-.header_menu {
+.header_menu ul {
     display: flex;
     justify-content: center;
 }
@@ -49,7 +43,6 @@
     width: 16px;
     height: 17px;
     padding-top: 50px;
-    padding-left: 240px;
 }
 
 .logo_pict_2 {

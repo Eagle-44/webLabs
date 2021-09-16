@@ -1,6 +1,7 @@
 .footer {
-    max-width: 100%;
+    margin: 0 auto;
     height: 205px;
+    width: 1300px;
     margin-top: 184px;
     background: #F16353;
     
@@ -9,7 +10,6 @@
 .footer_info{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     padding-top: 95px;
 
 }
@@ -20,7 +20,6 @@
     font-size: 16px;
     line-height: 30px;
     display: flex;
-    align-items: center;
     color: #F8F9FA;
 }
 
@@ -38,3 +37,4 @@
 .social_media {
      margin-right: 31px ;
 }
+
