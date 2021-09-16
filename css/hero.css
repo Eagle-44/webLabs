@@ -1,7 +1,7 @@
 .hero_inner {
     width: 740px;
     padding-top: 94px;
-    margin-left: 240px;
+    margin-left: 160px;
 }
 
 .hero_title {
@@ -22,7 +22,37 @@
     text-transform: uppercase;
 }
 
-.hero_car {
-    padding-top: 50px;
-    margin-left: -200px;   
+@media screen and (max-width: 1124px){
+
+    .container_hero {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero_inner {
+        margin: 0;
+        max-width: 320px;
+        
+    }
+    
+    .hero_title {
+        font-family: "Rubik";
+        font-size: 16px;
+        color: #402B2B;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .btn_start {
+        display: flex;
+        justify-content: center;
+    }
+    .btn_get_start{
+        margin: 0;
+    }
+
+    .hero_car {
+        display: none;
+    }
 }

@@ -66,3 +66,41 @@
     background-color: #FFF;
     color: #EE4D47;
 }
+
+@media screen and (max-width: 1124px){
+
+    .logo_pict_1 {
+        display: none;
+    }
+
+    .logo_pict_2 {
+        display: none;
+    }
+
+    .text_logo {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+    .upper_header {
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+    
+    .header_menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_menu-item {
+        margin: 0;
+    }
+    
+    /* переробити батон і закинути в бутер разом з менюшкою */
+    .btn_contact-us { 
+        margin: 0; 
+    }
+}

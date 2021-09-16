@@ -45,3 +45,10 @@ h1 , h2{
     font-size: 18px;
     line-height: 40px;
 }
+
+@media screen and (max-width: 1124px){
+    .container {
+        background: none;
+    }
+    
+}
