@@ -22,6 +22,11 @@
     text-transform: uppercase;
 }
 
+.hero_car {
+    margin-top: 54px;
+    margin-left: -200px;
+}
+
 @media screen and (max-width: 1124px){
 
     .container_hero {

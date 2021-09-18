@@ -51,4 +51,7 @@ h1 , h2{
         background: none;
     }
     
+    .paraghraph {
+        max-width: 320px;
+    }
 }

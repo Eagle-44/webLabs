@@ -49,6 +49,7 @@
 
     .container_top {
         display: block;
+        margin-top: 50px;
     }
 
     .left_side_top {
@@ -64,17 +65,23 @@
     }
 
     .paraghraph_top {
-        max-width: 320px;
+        max-width: 300px;
+        height: auto;
         font-size: 14px;
+        border-style: solid;
+        border-color: #EE4D47;
+        margin-inline: 2px;
+        padding: 5px;
     }
 
     .paragraph_question {
-        max-width: 320px;
+        max-width: 300px;
         font-size: 16px;
-        padding: 0;
-        padding-bottom: 40px;
-        border-style:dashed;
+        border-style:solid;
         border-color: #EE4D47;
+        padding: 5px;
+        margin-inline: 2px;
+        margin-top: 50px;
     }
 
     .right_side_top {
