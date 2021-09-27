@@ -27,6 +27,7 @@
     color: #EE4D47;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    animation: color-change 4s infinite;
 }
 
 @media screen and (max-width: 1124px) {

@@ -47,6 +47,11 @@ h1 , h2{
 }
 
 @media screen and (max-width: 1124px){
+    
+    body {
+        background: linear-gradient(297.99deg, #FFEDBA 16.76%, #EE4D47 92%);
+    }
+    
     .container {
         background: none;
     }

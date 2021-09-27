@@ -20,6 +20,12 @@
     line-height: 19px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    animation: animation 2s  infinite;
+}
+
+.btn_get_start:hover {
+    background-color: #FFF;
+    color: #EE4D47;
 }
 
 .hero_car {

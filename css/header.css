@@ -6,12 +6,27 @@
     display: flex;
     justify-content: center;
 }
-.header_menu ul {
+
+.header__menu {
+    display: none;
+    width: 32px;
+    cursor: pointer;
+  }
+
+.header__menu > img {
+    max-width: 100%;
+}
+
+.header__menu-icon {
+    width: 40px;
+}
+
+.header__nav ul {
     display: flex;
     justify-content: center;
 }
 
-.header_menu-item {
+.header__nav-item {
     margin-right: 97px;
     padding-top: 61px;
     line-height: 19px;
@@ -69,6 +84,12 @@
 
 @media screen and (max-width: 1124px){
 
+    .header {
+        position: fixed;
+        background: #EE4D47;
+        width: 100%;
+    }
+
     .logo_pict_1 {
         display: none;
     }
@@ -82,25 +103,57 @@
         display: flex;
         justify-content: center;
         padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .upper_header {
-        flex-direction: column;
         margin: 0;
-        align-items: center;
-    }
-    
-    .header_menu ul {
-        flex-direction: column;
         align-items: center;
     }
 
-    .header_menu-item {
-        margin: 0;
+    .header__menu {
+        display: block;
+        margin-left: 60px;
+      }
+    
+    .header__nav {
+        background: #E5E5E5;
+        position: fixed;
+        top: 115px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        clip-path: circle(0 at top right);
+        transition: clip-path 0.9s ease-in;
+    }
+
+    .header__nav.open {
+        clip-path: circle(1124px at top);
+    }
+
+    .header__nav ul {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .header__nav .header__nav-item {
+        margin-right: 0;
+        padding-top: 10vh;
+        flex: 1;
+    }
+
+    .header__nav a {
+        font-weight: 500;
+        display: block;
+        font-size: 32px;
+        color: #EE4D47;
     }
     
-    /* переробити батон і закинути в бутер разом з менюшкою */
     .btn_contact-us { 
+        display: none;
         margin: 0; 
     }
 }
