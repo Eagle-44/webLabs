@@ -1,4 +1,4 @@
-@import "./normalize.css";
+@import "./normalize.min.css";
 
 @import "./globals.css";
 
@@ -8,4 +8,10 @@
 
 @import "./intro.css";
 
+@import "./middle_intro.css";
+
+@import "./bottom_intro.css";
+
 @import "./footer.css";
+
+@import "./animation.css";

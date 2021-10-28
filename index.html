@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab One</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Rubik&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
-</head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab One</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    </head>
 <body>
     <section class="hero">
         <div class="container">
@@ -17,12 +17,15 @@
                     <div class="upper_header">
                         <img class="logo_pict_1"src="./img/Rectangle 15.svg">
                         <img class="logo_pict_2" src="./img/Rectangle 16.svg">
-                        <h1 class="text_logo">trafico.</h1>   
-                        <nav class="header_menu">
+                        <h1 class="text_logo">trafico.</h1>  
+                        <div class="header__menu" onclick="toggleMenu()">
+                            <img src="./img/menu-icon.svg" alt="Menu icon">
+                        </div>
+                        <nav id="nav-links" class="header__nav">
                             <ul>
-                                <li class="header_menu-item"><a href="">ABOUT</a></li>
-                                <li class="header_menu-item"><a href="">HOW TO</a></li>
-                                <li class="header_menu-item"><a href="">FAQS</a></li>
+                                <li class="header__nav-item"><a href="">ABOUT</a></li>
+                                <li class="header__nav-item"><a href="">HOW TO</a></li>
+                                <li class="header__nav-item"><a href="">FAQS</a></li>
                             </ul>
                         </nav>
                         <button class="btn_contact-us">Contact Us</button>
@@ -31,7 +34,7 @@
             <div class="container_hero">
                 <div class="hero_inner">
                     <h1 class="hero_title">Your awesome traffic permit consultant.</h1>
-                    <div>
+                    <div class="btn_start">
                         <button class="btn_get_start">GET STARTED</button>
                     </div>
                     <div class="hero_car">
@@ -72,7 +75,7 @@
             </div>
             <div class="right_side_middle">
                 <h1 class="title_middle">How to apply</h1>
-                <div class="paragraph">
+                <div class="paraghraph">
                     <p class="paragraph_middle">
                         When applying for a traffic permit, there are certain requirements that you must meet 
                         that are included in the examination: requirements for professional knowledge, solid establishment, 
@@ -138,5 +141,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>

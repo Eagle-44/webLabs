@@ -1,0 +1,28 @@
+@keyframes floating {
+    0% {
+      transform: translateY(20px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(20px);
+    }
+}
+@keyframes animation {
+    0% {
+        box-shadow: 0 0 0 0 rgb(255, 255, 255), 0 0 0 0 rgb(255, 255, 255);
+    }
+    50% {
+        box-shadow: 0 0 0 20px rgba(250, 4, 4, 0), 0 0 0 0 rgb(246, 245, 245);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(29, 171, 209, 0), 0 0 0 10px rgba(29, 171, 209, 0);
+    }
+}
+
+@keyframes color-change {
+    0% { color: #EE4D47; }
+    50% { color: rgb(148, 2, 2); }
+    100% { color: rgb(0, 0, 0); }
+  }
