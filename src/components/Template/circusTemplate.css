@@ -1,0 +1,48 @@
+.item_img {
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+.item_circus {
+    width: 346px;
+	line-height: 459px;
+	padding-inline: 10px;
+    padding-top: 20px;
+	margin: 10px;
+    border-radius: 10px;
+    border:solid 2px grey;
+    font-family: Helvetica;
+	line-height: 160%;
+	background-color: #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.btn_viewmore {
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    padding: 0px 15px;
+    margin-right: 20px;
+    border-radius: 6px;
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #D6DBDF;
+    background-color: #34495E;
+    box-shadow: 7px 5px 5px #A1A8A9;
+    
+}
+
+.btn_viewmore:hover {
+    background-color: #009595;
+}
+
+.viewmore_link{
+    color: #D6DBDF;
+}

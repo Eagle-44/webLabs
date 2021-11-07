@@ -1,0 +1,14 @@
+.hero_container{
+    display: flex;
+    padding: 50px;
+}
+
+.circus_hero {
+    height: 250px;
+    width: 400px;
+    border-radius: 4px;
+}
+
+.paragraph {
+    font-size: 16px;
+}
