@@ -1,0 +1,43 @@
+.footer {
+    border-top: solid 3px grey;
+    border-bottom: solid 3px grey;
+}
+
+.footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid grey;
+    margin-bottom: 10px;
+    margin-inline: 40px;
+}
+
+.branding_staff {
+    max-width: 20%;
+    font-family: Helvetica;
+}
+
+p {
+    font-size: 12px;
+}
+
+.footer_logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.social_media {
+    display: flex;
+}
+
+.social_logo {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+h5 {
+    text-align: center;
+}

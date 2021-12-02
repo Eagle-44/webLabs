@@ -1,0 +1,32 @@
+.item_page {
+    padding: 40px;
+}
+
+.item_page_ticket_template {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: grey double;
+    margin: 0 auto;
+    padding-inline: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 750px;
+
+}
+
+.item_page_img {
+    max-width: 350px;
+    max-height: 175px;
+    border-radius: 24px;
+}
+
+.item_page_info {
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    border: inset;
+}
+
+.item_page_name {
+    font-size: xx-large;
+}
