@@ -1,5 +1,5 @@
 import React from "react";
-import { Loader } from "../../../Spinner/Loader";
+import Loader from "../../../Spinner/Loader";
 import CircusTemplate from "../../Template/CircusTemplate";
 
 function ItemContainer({circus}) {
@@ -8,8 +8,8 @@ function ItemContainer({circus}) {
         <ul className="item">
             {
                 circus.map(((circus,id) => (
-                    <li key={id}><CircusTemplate
-                        id={id}
+                    <li key={circus.id}><CircusTemplate
+                        id={circus.id}
                         name={circus.name}
                         amountOfPlaces={circus.amountOfPlaces}
                         address={circus.address}

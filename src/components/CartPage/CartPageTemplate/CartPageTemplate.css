@@ -1,0 +1,6 @@
+.carts {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 3px;
+}

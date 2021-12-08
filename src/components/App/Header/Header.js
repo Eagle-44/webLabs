@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-do
 import logo from "../../../img/logo.jpg";
 import Home from "../../Home/Home.js";
 import Catalog from "..//../Catalog/Catalog.js";
-import left from "..//..//../img/left.jpg";
-import {Image, LinkingWrapper, Meme} from "./Header.styles";
+import {Image, LinkingWrapper} from "./Header.styles";
 import {circuses} from "..//..//Utill/UtilCircus.js";
 import ItemPage from "../../ItemPage/ItemPage";
+import CartPage from "../../CartPage/CartPage";
 
 
 const Header = () => {
@@ -35,12 +35,8 @@ const Header = () => {
                     <Route path="/catalog" component = {Catalog}>
                         <Catalog circus = {circuses}/>
                     </Route>
-                    <Route path="/cart">
-                        <Meme>
-                            <div id="memes">
-                                <img src={left} alt="meme"/>
-                            </div>
-                        </Meme>
+                    <Route exact path="/cart" component={CartPage}>
+                        <CartPage/>
                     </Route>
                     <Route exact path="/" component = {Home}>
                         <Home/>

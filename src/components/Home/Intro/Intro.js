@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./intro.css";
 import CircusTemplate from "..//..//Template/CircusTemplate.js";
 import axios from "axios";
-import { Loader } from "../../../Spinner/Loader";
+import Loader from "../../../Spinner/Loader";
 
 const Intro = () => {
     

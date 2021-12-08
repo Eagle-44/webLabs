@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./filter.css";
 import HeroCatalog from "../HeroCatalog/HeroCatalog.js";
 import axios from "axios";
-import { Loader } from "../../../Spinner/Loader";
+import  Loader  from "../../../Spinner/Loader";
 
 const Filter = () => {
 

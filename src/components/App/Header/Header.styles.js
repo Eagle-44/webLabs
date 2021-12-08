@@ -47,10 +47,3 @@ export const Image = styled.div`
         margin-left: 5px;
     }
 `
-
-export const Meme = styled.div`
-    #memes {
-      display: flex;
-      justify-content: center;
-    }
-`
